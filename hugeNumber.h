@@ -8,7 +8,6 @@ typedef struct HUGE_NUMBER {
 	char symbol;	//存储从文件中读取到的巨大数的符号
 	int *data;		//存储巨大数的数字部分
 	int dataCount;	//存储巨大数数字部分数组元素的个数
-	int power;		//存储小数权重
 } HUGE_NUMBER;
 
 void readFile(HUGE_NUMBER *num, char *filePath);

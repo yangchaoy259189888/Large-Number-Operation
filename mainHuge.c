@@ -23,17 +23,17 @@ int main() {
 	// printf("\n*****两数相加*****\n");
 	// addHugeNumber(&num1, &num2, &addResult);
 	// showHugeNumber(addResult);
-	// writeToFile(addResult, fileOutputPath); 
+	// writeToFile(addResult, fileOutputPath, subResult.symbol); 
 	
-	printf("\n*****两数相减*****\n");
-	subHugeNumber(&num1, &num2, &subResult);
-	showHugeNumber(subResult);
-	writeToFile(subResult, fileOutputPath, subResult.symbol);
+	// printf("\n*****两数相减*****\n");
+	// subHugeNumber(&num1, &num2, &subResult);
+	// showHugeNumber(subResult);
+	// writeToFile(subResult, fileOutputPath, subResult.symbol);
 	
-	// printf("\n*****两数相乘*****\n");
-	// multiHugeNumber(&num1, &num2, &multiResult);
-	// showHugeNumber(multiResult);
-	// writeToFile(multiResult, fileOutputPath);
+	printf("\n*****两数相乘*****\n");
+	multiHugeNumber(&num1, &num2, &multiResult);
+	showHugeNumber(multiResult);
+	writeToFile(multiResult, fileOutputPath, subResult.symbol);
 	
 	destoryHugeNumber(&num1);
 	destoryHugeNumber(&num2);
